@@ -4,6 +4,7 @@
 #### 标题四
 ##### 标题五
 ###### 标题六
+
 ```php
 <?php
  echo "php代码块";
@@ -72,3 +73,14 @@ _斜体_
 刘备|哭|大哥
 关羽|打|二哥
 张飞|骂|三弟
+
+# 流程图
+```flow
+st=>start: 开始
+op=>operation: My Operation
+cond=>condition: Yes or No?
+e=>end
+st->op->cond
+cond(yes)->e
+cond(no)->op
+&```
